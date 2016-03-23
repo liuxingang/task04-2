@@ -1,0 +1,118 @@
+/*顶部*/
+.nav1 {
+    background: #324357;
+}
+
+.p1 {
+    color: #eff1f3;
+    font-size: 16px;
+}
+
+.p2 {
+    color: white;
+}
+
+.sign-out {
+    color: yellow;
+}
+
+.sign-out:hover {
+    color: #ffffff;
+}
+
+.home-page {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.row {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header {
+    background: #324357;
+}
+/*中间横向导航*/
+.di {
+    background: #dde9ef;
+    padding-left: 50px;
+    padding-top: 10px;
+    border-bottom: 3px solid #324357;
+}
+
+.di .nav a:hover {
+    background: #3ac877;
+    color: #ffffff;
+}
+
+.home {
+    margin-right: 10px;
+    margin-left: 25px;;
+    padding: 0 15px 0;
+    background: #3ac877;
+    border-radius: 15px 15px 0 0;
+}
+
+.home a {
+    color: white;
+}
+/*左侧导航*/
+.left-nav {
+    padding: 0;
+    border-right: 1px solid grey;
+    background: #324357;
+    height: 660px;
+}
+
+.left-nav a {
+    color: #ffffff;
+    background: #324357;
+    border: none;
+}
+
+.menu {
+    background: #dce8ee;
+    font-size: 16px;
+}
+/*右侧主要内容*/
+.main {
+    height: 630px;
+}
+
+.tab1 {
+    border: 1px solid #b5ddfc;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.tab1 thead {
+    background: #b5ddfc;
+}
+
+.tab1 tr:hover {
+    background: #b5ddfc;
+}
+
+th {
+    text-align: center;
+    color: #4383be;
+}
+
+.t-red {
+    color: red;
+}
+
+.tex1 {
+    font-weight: bolder;
+    color: #4383be;
+}
+
+.input-left {
+    margin-left: 14px;
+    padding-bottom: 10px;
+}
+
+.btnn-left {
+    margin-left: 240px;;
+}

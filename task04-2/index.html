@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>后台管理系统-登录</title>
+</head>
+<body>
+<!--承载层-->
+    <div class="wrapper">
+        <h3 class="text-center">欢迎登陆后台管理系统</h3>
+        <div class="row">
+            <div class="col-md-12  ">
+                <!--form表单-->
+                <form class="form-horizontal " action="main.html">
+                    <!--账号输入框-->
+                    <div class="input-group hr10">
+                        <!--bootscrap图标-->
+                        <span class="input-group-addon" id="usename">
+                             <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                        </span>
+                        <input type="text" class="form-control" placeholder="请输入邮箱/昵称/手机号" aria-describedby="basic-addon1"
+                               required="required">
+                    </div>
+                    <!--密码输入框-->
+                    <div class="input-group">
+                        <!--bootscrap图标-->
+                        <span class="input-group-addon" id="password">
+                             <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                        </span>
+                        <input type="password" class="form-control" placeholder="请输入密码" aria-describedby="basic-addon1"
+                               required="required">
+                    </div>
+                    <!--checkbox-->
+                        <div class="input-group">
+                           <div class="checkbox">
+                               <label class="checkbox-inline">
+                                   <input type="checkbox" id="inlineCheckbox1"> 记住密码
+                               </label>
+                               <label class="checkbox-inline">
+                                   <input type="checkbox" id="inlineCheckbox2"> 自动登录
+                               </label>
+                           </div>
+                        </div>
+                    <!--登录注册button-->
+                    <div class="btn-group btn-1">
+                        <button type="submit" class="btn btn-primary hr15">登录</button>
+                        <button type="submit" class="btn btn-danger">注册</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
